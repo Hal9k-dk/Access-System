@@ -112,10 +112,6 @@ F 3 "~" H 5600 3250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5600 3100 5600 3150
-Wire Wire Line
-	5600 3350 5600 3400
-Wire Wire Line
-	5600 3400 6025 3400
 $Comp
 L Device:R_Small R3
 U 1 1 5ACA1E9C
@@ -127,9 +123,6 @@ F 3 "~" H 5600 3550 50  0001 C CNN
 	1    5600 3550
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	5600 3400 5600 3450
-Connection ~ 5600 3400
 $Comp
 L power:GND #PWR0109
 U 1 1 5ACA2116
@@ -301,9 +294,6 @@ Wire Notes Line
 	5150 2850 5150 4725
 Wire Notes Line
 	5150 4725 7100 4725
-Connection ~ 6025 3400
-Wire Wire Line
-	6025 3400 6150 3400
 Text Notes 8325 2950 2    50   ~ 0
 Connectors
 Text Notes 7075 2950 2    50   ~ 0
@@ -348,4 +338,11 @@ Wire Notes Line
 	2975 4725 5100 4725
 Text Notes 5050 3450 2    50   ~ 0
 Power handling
+Wire Wire Line
+	5600 3350 5600 3400
+Wire Wire Line
+	6025 3400 5600 3400
+Connection ~ 5600 3400
+Wire Wire Line
+	5600 3400 5600 3450
 $EndSCHEMATC
