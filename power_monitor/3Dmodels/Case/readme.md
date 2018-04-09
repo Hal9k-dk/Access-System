@@ -4,4 +4,4 @@ The source files for the case are [here](https://cad.onshape.com/documents/f3460
 
 It's made on OnShape. To do anything but view you'll need a free account. For that reason step and stl files for the case have been provided here as well, in a folder of their own.
 
-![Case Render](case-render.png)
+![Case Render](images/case-render.png)
