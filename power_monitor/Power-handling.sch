@@ -37,7 +37,7 @@ U 1 1 5AC9C366
 P 5350 2500
 F 0 "D1" H 5350 1125 50  0000 C CNN
 F 1 "1N4001" H 5350 2575 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA-SMB_Universal_Handsoldering" V 5350 2500 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" V 5350 2500 50  0001 C CNN
 F 3 "~" V 5350 2500 50  0001 C CNN
 	1    5350 2500
 	1    0    0    -1  
@@ -66,29 +66,7 @@ F 3 "" H 5000 2000 50  0001 C CNN
 	1    5000 2000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5000 2000 5000 2200
 Connection ~ 5000 2500
-$Comp
-L Device:C_Small C1
-U 1 1 5AC9C37D
-P 5350 2200
-F 0 "C1" V 5121 2200 50  0000 C CNN
-F 1 "10uF" V 5212 2200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 5350 2200 50  0001 C CNN
-F 3 "~" H 5350 2200 50  0001 C CNN
-	1    5350 2200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5250 2200 5000 2200
-Connection ~ 5000 2200
-Wire Wire Line
-	5000 2200 5000 2500
-Wire Wire Line
-	5450 2200 5700 2200
-Wire Wire Line
-	5700 2200 5700 2500
 Wire Wire Line
 	5700 2500 5800 2500
 $Comp
@@ -159,10 +137,10 @@ Wire Wire Line
 Wire Wire Line
 	6950 3750 7000 3750
 $Comp
-L Device:C_Small C2
+L Device:C_Small C1
 U 1 1 5AC9C3C1
 P 7775 4150
-F 0 "C2" H 7683 4104 50  0000 R CNN
+F 0 "C1" H 7683 4104 50  0000 R CNN
 F 1 "0.1uF" H 7683 4195 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.84x1.00mm_HandSolder" H 7775 4150 50  0001 C CNN
 F 3 "~" H 7775 4150 50  0001 C CNN
@@ -274,4 +252,6 @@ Wire Wire Line
 Connection ~ 6250 2500
 Text HLabel 6900 5100 2    50   UnSpc ~ 0
 gnd
+Wire Wire Line
+	5000 2000 5000 2500
 $EndSCHEMATC
