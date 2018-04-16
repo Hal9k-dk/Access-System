@@ -901,6 +901,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/3Dmodels/1754449_04.stp
+      (offset (xyz -2.5 -10 1.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 90))
+    )
   )
 
   (module Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G_1x02_P5.00mm_Horizontal (layer F.Cu) (tedit 5ACA7452) (tstamp 5AFBC386)
@@ -954,6 +959,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/3Dmodels/1754449_04.stp
+      (offset (xyz -2.5 -10 1.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 90))
     )
   )
 
